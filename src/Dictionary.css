@@ -2,7 +2,9 @@
     display: block;
     margin: 0 auto;
     padding: 50px;
-    background-color: #50717b;
+    background-color: white;
     border-radius: 4px;
+    border: 1px solid #91b2c2;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
     max-width: 600px;
 }
