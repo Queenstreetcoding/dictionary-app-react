@@ -30,9 +30,9 @@ export default function Dictionary(){
                 <input type="Search" onChange={handleKeywordChange} autofocus={true} placeholder="Type your word" className="border border-dark-subtle rounded-1"/>
             </form>
         </div>
-        <div>
-            <Results results={results}/>
+            <span><i class="bi bi-book"></i></span>
+            <span><Results results={results}/></span>
         </div>
-    </div>
+
     )
 }
