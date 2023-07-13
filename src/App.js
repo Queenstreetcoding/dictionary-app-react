@@ -11,7 +11,7 @@ export default function App() {
       <main>
         <Dictionary />
       </main>
-      <footer>This React App is coded by Cindy Verboog and is <a href="/">Open-Sourced</a> on GitHub</footer>
+      <footer>This React App is coded by Cindy Verboog and is <a href="https://github.com/Queenstreetcoding/dictionary-app-react" target="_blank" rel="noreferrer">Open-Sourced</a> on GitHub</footer>
       </div>
     </div>
   );

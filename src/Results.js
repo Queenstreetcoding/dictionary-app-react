@@ -1,6 +1,6 @@
 import React from "react";
 import Meaning from "./Meaning.js";
-import "./Word.css";
+import "./Results.css";
 
 export default function Results(props){
     if (props.results) {
@@ -19,12 +19,11 @@ export default function Results(props){
                     <div key={index}>
                         <Meaning meaning={meaning} />
                     </div>
-                
                 )
             })}
         </div>
-        </div>
-        </div>
+    </div>
+</div>
         ); } else {
     return null;
     }

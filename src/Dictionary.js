@@ -26,6 +26,7 @@ export default function Dictionary(){
     return(
         <div>
         <div className="Dictionary" onSubmit={search}>
+            <h4>What word would you like to learn?</h4>
             <form>
                 <input type="Search" onChange={handleKeywordChange} autofocus={true} placeholder="Type your word" className="border border-dark-subtle rounded-1"/>
             </form>
@@ -33,6 +34,5 @@ export default function Dictionary(){
             <span><i class="bi bi-book"></i></span>
             <span><Results results={results}/></span>
         </div>
-
     )
 }
