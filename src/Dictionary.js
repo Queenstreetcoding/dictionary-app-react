@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Results from "./Results.js";
-import Photos from "Photos.js";
+import Photos from "./Photos.js";
 import { Book } from "react-bootstrap-icons";
 import "./Dictionary.css"
 
@@ -51,7 +51,7 @@ export default function Dictionary(){
                 <input type="Search" onChange={handleKeywordChange} autoFocus={true} placeholder="Type your word" />
                 <span className="ps-3"><Book size={20} /></span>
             </form> 
-            <div className="Hint">Suggested words: sunset, book, flower, wine, dog...</div>
+            <div className="Hint">Suggested words: sunrise, book, flower, wine, dog...</div>
         </div>
             <span><Results results={results}/></span>
             <Photos photos={photos} />

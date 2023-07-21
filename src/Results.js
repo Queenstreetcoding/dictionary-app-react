@@ -5,21 +5,21 @@ import "./Results.css";
 
 export default function Results(props){
     if (props.results) {
-        return (
-        <div className="Results">
-            <div className="row">
-                <div className="col-6">
-                    <h2 className="Word">{props.results.word}</h2>
-                </div>
-                <div class="col-6">
-                    {props.results.phonetics.map(function(phonetic, index){
-                    return(    
-                        <div key={index}>
-                            <Phonetic phonetic={phonetic} />
-                        </div>
-                        )
-                    })}
-                </div>
+        return(
+            <div className="Results">
+                <div className="row">
+                    <div className="col-6">
+                        <h2 className="Word">{props.results.word}</h2>
+                    </div>
+                    <div className="col-6">
+                        {props.results.phonetics.map(function(phonetic, index){
+                            return(
+                                <div key={index}>
+                                    <Phonetic phonetic={phonetic} />
+                                </div>
+                            )
+                        })}
+              </div>
                 </div>
             <div className="Meanings">
             {props.results.meanings.map(function(meaning, index){
