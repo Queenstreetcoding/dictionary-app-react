@@ -1,4 +1,4 @@
-.Word {
+.Results .Word {
     display: block;
     margin: 10px auto;
     padding: 30px 50px;
@@ -6,9 +6,17 @@
     border-radius: 4px;
     border: 1px solid #91b2c2;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
 }
 
-.col-6 {
+.Results .row {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.Results .col-6 {
+    display: block;
+    margin: 10px auto;
     padding: 0;
+    max-width: 350px;
 }
