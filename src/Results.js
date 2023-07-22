@@ -7,7 +7,7 @@ export default function Results(props){
     if (props.results) {
         return(
             <div className="Results">
-                <div className="row">
+                <div className="row justify-content-between two-rows">
                     <div className="col-6">
                         <h2 className="Word">{props.results.word}</h2>
                     </div>
