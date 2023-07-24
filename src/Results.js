@@ -9,7 +9,7 @@ export default function Results(props){
             <div className="Results">
                 <div className="row justify-content-between two-rows">
                     <div className="col-6">
-                        <h2 className="Word">{props.results.word}</h2>
+                        <h1 className="Word">{props.results.word}</h1>
                     </div>
                     <div className="col-6">
                         {props.results.phonetics.map(function(phonetic, index){
